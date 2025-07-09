@@ -1,6 +1,6 @@
 const mega = require("megajs");
 const auth = {
-  email: "kavindhagihan5@gmail.com",
+  email: "kavindhagihan79@gmail.com",
   password: "kavindha#0000",
   userAgent:
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.246",
