@@ -82,10 +82,10 @@ router.get("/", async (req, res) => {
             );
 
             const sid = `*Kaviya [The powerful WA BOT]*\n\n👉 ${string_session} 👈\n\n*This is the your Session ID, copy this id and paste into config.js file*\n\n*You can ask any question using this link*\n\n*https://wa.me/message/PHFSLOO4KCVCB1*\n\n*You can join my whatsapp group*\n\n*https://chat.whatsapp.com/BxgyUSr5emZCJ6Hy5cM45t?mode=r_t*`;
-            const mg = `🛑 *Do not share this code to anyone* 🛑`;
+            const mg = `🛑 *මේක කටෙවත් යවන්න එපා🖐️* 🛑`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://raw.githubusercontent.com/kaviya21230/web-pair/main/20250709_154857.jpg",
+                url: "https://github.com/kaviya21230/Bot-helper/blob/main/file_00000000b29c620a9c623d8baa4370ba.png",
               },
               caption: sid,
             });
