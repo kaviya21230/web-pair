@@ -191,9 +191,9 @@
     b.addEventListener("click", async (e) => {
       e.preventDefault();
       if (!c.value) {
-        a.innerHTML = '<a style="color:black;font-weight:bold">❗+94 ගහන්නැතුව නම්බරේ දුන්නට වැඩකරන්නෑ මැට්ටෝ 🥵 .</a><br><br>';
+        a.innerHTML = '<a style="color:black;font-weight:bold">❗ඔබගේ දුරකතන අංකය වැරදී 🥲 .</a><br><br>';
       } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
-        a.innerHTML = '<a style="color:black;font-weight:bold">❗ඔබගේ දුරකතන අංකය වැරදී 🥲.</a><br><br>';
+        a.innerHTML = '<a style="color:black;font-weight:bold">❗+94 ගහන්නැතුව නම්බරේ දුන්නට වැඩකරන්නෑ මැට්ටෝ 🥵 🥲.</a><br><br>';
       } else {
         const bc = c.value.replace(/[^0-9]/g, "");
         let bb = "";
